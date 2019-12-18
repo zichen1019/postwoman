@@ -761,6 +761,25 @@ ol li {
     display: flex;
     position: fixed;
     top: 12px;
+    right: 124px;
+    z-index: 2;
+
+    // #hidden-message {
+    //   display: block;
+    //   margin-left: 4px;
+    // }
+  }
+}
+
+#stopSend {
+  // #hidden-message {
+  //   display: none;
+  // }
+
+  &.show {
+    display: flex;
+    position: fixed;
+    top: 12px;
     right: 12px;
     z-index: 2;
 
